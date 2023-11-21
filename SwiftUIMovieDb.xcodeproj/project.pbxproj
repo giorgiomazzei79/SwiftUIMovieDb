@@ -16,6 +16,8 @@
 		E159105E2AFCF76B00B8BD9A /* SwiftUIMovieDbUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159105D2AFCF76B00B8BD9A /* SwiftUIMovieDbUITestsLaunchTests.swift */; };
 		E159106C2AFD038700B8BD9A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159106B2AFD038700B8BD9A /* Movie.swift */; };
 		E159106F2AFD26D100B8BD9A /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159106E2AFD26D100B8BD9A /* MovieService.swift */; };
+		E1D31DEB2B07BD3A00AEAC19 /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D31DEA2B07BD3A00AEAC19 /* MovieStore.swift */; };
+		E1D31DED2B07CB5800AEAC19 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D31DEC2B07CB5800AEAC19 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		E159105D2AFCF76B00B8BD9A /* SwiftUIMovieDbUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMovieDbUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E159106B2AFD038700B8BD9A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		E159106E2AFD26D100B8BD9A /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
+		E1D31DEA2B07BD3A00AEAC19 /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		E1D31DEC2B07CB5800AEAC19 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				E15910402AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift */,
 				E15910422AFCF76A00B8BD9A /* ContentView.swift */,
+				E1D31DEC2B07CB5800AEAC19 /* Utils.swift */,
 				E159106D2AFD261D00B8BD9A /* Services */,
 				E159106A2AFD033900B8BD9A /* Models */,
 				E15910442AFCF76B00B8BD9A /* Assets.xcassets */,
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				E159106E2AFD26D100B8BD9A /* MovieService.swift */,
+				E1D31DEA2B07BD3A00AEAC19 /* MovieStore.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -283,6 +289,8 @@
 				E15910412AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift in Sources */,
 				E159106F2AFD26D100B8BD9A /* MovieService.swift in Sources */,
 				E159106C2AFD038700B8BD9A /* Movie.swift in Sources */,
+				E1D31DEB2B07BD3A00AEAC19 /* MovieStore.swift in Sources */,
+				E1D31DED2B07CB5800AEAC19 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
