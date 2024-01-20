@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11DC0512B5B3E8A00545FA1 /* MovieBackdropCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11DC0502B5B3E8A00545FA1 /* MovieBackdropCard.swift */; };
+		E11DC0542B5B3FDA00545FA1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11DC0532B5B3FDA00545FA1 /* ImageLoader.swift */; };
 		E15910412AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15910402AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift */; };
 		E15910432AFCF76A00B8BD9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15910422AFCF76A00B8BD9A /* ContentView.swift */; };
 		E15910452AFCF76B00B8BD9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15910442AFCF76B00B8BD9A /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E11DC0502B5B3E8A00545FA1 /* MovieBackdropCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieBackdropCard.swift; sourceTree = "<group>"; };
+		E11DC0532B5B3FDA00545FA1 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		E159103D2AFCF76A00B8BD9A /* SwiftUIMovieDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMovieDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15910402AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMovieDbApp.swift; sourceTree = "<group>"; };
 		E15910422AFCF76A00B8BD9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +91,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E11DC04F2B5B3E1600545FA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E11DC0502B5B3E8A00545FA1 /* MovieBackdropCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E11DC0522B5B3FAE00545FA1 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				E11DC0532B5B3FDA00545FA1 /* ImageLoader.swift */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
 		E15910342AFCF76A00B8BD9A = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +130,8 @@
 		E159103F2AFCF76A00B8BD9A /* SwiftUIMovieDb */ = {
 			isa = PBXGroup;
 			children = (
+				E11DC0522B5B3FAE00545FA1 /* Bindings */,
+				E11DC04F2B5B3E1600545FA1 /* Views */,
 				E15910402AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift */,
 				E15910422AFCF76A00B8BD9A /* ContentView.swift */,
 				E1D31DEC2B07CB5800AEAC19 /* Utils.swift */,
@@ -310,8 +332,10 @@
 			files = (
 				E15910432AFCF76A00B8BD9A /* ContentView.swift in Sources */,
 				E15910412AFCF76A00B8BD9A /* SwiftUIMovieDbApp.swift in Sources */,
+				E11DC0512B5B3E8A00545FA1 /* MovieBackdropCard.swift in Sources */,
 				E159106F2AFD26D100B8BD9A /* MovieService.swift in Sources */,
 				E1C4F53E2B3311C1009BBB37 /* Movie+Stub.swift in Sources */,
+				E11DC0542B5B3FDA00545FA1 /* ImageLoader.swift in Sources */,
 				E159106C2AFD038700B8BD9A /* Movie.swift in Sources */,
 				E1D31DEB2B07BD3A00AEAC19 /* MovieStore.swift in Sources */,
 				E1D31DED2B07CB5800AEAC19 /* Utils.swift in Sources */,
