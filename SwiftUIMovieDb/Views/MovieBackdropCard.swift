@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct MovieBackdropCard: View {
+    
+    let movie: Movie
+    @ObservedObject var imageLoader = ImageLoader()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading){
+            ZStack{
+                Rectangle()
+                    .fill(Color.gray.opacity(0.3))
+                
+                if self.imageLoader.image != nil {
+                    Image(uiImage: self.imageLoader.image!)
+                        .resizable()
+                }
+            }
+            Text(movie.title)
+        }
     }
 }
-
-#Preview {
-    MovieBackdropCard()
+struct MovieBackdropCard_Preview: PreviewProvider {
+    static var previews: some View {
+        MovieBackdropCard(movie: Movie.stubbedMovie)
+    }
 }

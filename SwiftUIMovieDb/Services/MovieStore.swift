@@ -32,7 +32,7 @@ class MovieStore: MovieService {
         self.loadURLAndDecode(url: url, params: [
             "language":"en-US",
             "include_adult":"false",
-            "region":"US"
+            "region":"US",
             "query": query
         ], completion: completion)
     }
